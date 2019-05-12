@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -p 8091:8091 -v `pwd`:/docker -w /docker --rm -it couchbase /bin/bash
